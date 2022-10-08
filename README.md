@@ -2,7 +2,7 @@
 The ThinkPHP 6 Addons Package
 
 ## 安装
-> composer require zzstudio/think-addons
+> composer require ymwl/think-addons
 
 ## 配置
 
@@ -70,7 +70,7 @@ use think\Addons;
 
 /**
  * 插件测试
- * @author byron sampson
+ * 
  */
 class Plugin extends Addons	// 需继承think\Addons类
 {
@@ -80,7 +80,7 @@ class Plugin extends Addons	// 需继承think\Addons类
         'title' => '插件测试',	// 插件名称
         'description' => 'thinkph6插件测试',	// 插件简介
         'status' => 0,	// 状态
-        'author' => 'byron sampson',
+        'author' => 'ymwl',
         'version' => '0.1'
     ];
 
